@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author kernel-mk
+ * @author Adonis kadjo 
  */
 public class Course {
     

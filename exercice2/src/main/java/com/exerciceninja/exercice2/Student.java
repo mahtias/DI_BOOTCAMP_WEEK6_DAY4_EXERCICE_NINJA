@@ -4,10 +4,7 @@
  */
 package com.exerciceninja.exercice2;
 
-/**
- *
- * @author kernel-mk
- */
+
 public class Student {
     
   private String name;

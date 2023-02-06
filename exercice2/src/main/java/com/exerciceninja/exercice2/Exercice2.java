@@ -6,7 +6,7 @@ package com.exerciceninja.exercice2;
 
 /**
  *
- * @author kernel-mk
+ * @author Adonis
  */
 public class Exercice2 {
 
@@ -14,9 +14,9 @@ public class Exercice2 {
         
         Course course = new Course("Informatique 101");
 
-    Student student1 = new Student("KONATE MAMADOU", 20, 3.5);
-    Student student2 = new Student("KERNEL KONATE MAMADOU", 21, 3.8);
-    Student student3 = new Student("KONATE MAMADOU KERNEL", 22, 2.5);
+    Student student1 = new Student("jonas ", 20, 3.5);
+    Student student2 = new Student("Dodou jonas ", 21, 3.8);
+    Student student3 = new Student("jonas  Dodou", 22, 2.5);
 
     course.addStudent(student1);
     course.addStudent(student2);
@@ -27,7 +27,7 @@ public class Exercice2 {
 
     course.removeStudent(student3);
 
-    System.out.println("\nListe des étudiants après la suppression de KERNEL KONATE MAMADOU:");
+    System.out.println("\nListe des étudiants après la suppression de Adoni kadjo :");
     course.printStudents();
     
     }
